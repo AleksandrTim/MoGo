@@ -33,13 +33,13 @@
     display: block;
     width: 60px;
     height: 3px;
-    margin: 60px auto;
+    margin: 40px auto;
 
     background-color: #fff;
 }
 
 .intro_suptitle {
-    margin-bottom: 20px;
+    margin-bottom: px;
 
     font-family: 'Kaushan Script',
     cursive;
