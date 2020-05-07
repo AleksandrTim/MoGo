@@ -283,6 +283,7 @@ hr {
 .section_text {
     font-size: 15px;
     color: #999;
+    font-family: 'Roboto';
 }
 
 /* About */
@@ -294,6 +295,9 @@ hr {
 
 .about_item {
     width: 380px;
+}
+
+.card_inner {
     position: relative;
     background-color: #95e1d3;
 }
@@ -336,6 +340,29 @@ hr {
 
 .about_item:hover .about_text {
     opacity: 1;
+}
+
+.card_info {
+    margin-top: 15px;
+
+    text-align: center;
+}
+
+.card_name {
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card_prof {
+    font-size: 15px;
+    color: #999;
+
+    font-family: 'Roboto';
 }
 
 
@@ -605,3 +632,42 @@ hr {
     transform: rotate(135deg);
     cursor: pointer;
 }
+
+/* Social */
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social_item {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+
+    background-color: #fce38a;
+    border-right: 1px solid #f38181;
+
+    font-size: 35px;
+    text-decoration: none;
+    color: #f38181;
+    line-height: 1;
+    
+    transition: background-color .2s linear,
+    color .2s linear;
+}
+
+.social_item:last-child {
+    border-right: none;
+}
+
+.social_item:hover {
+    color: #fff;
+    background-color: #f38181;
+}
+
+.logos {
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+
