@@ -262,7 +262,8 @@ hr {
 
 .section--map {
     background: url(./../images/our_stories/map.png)
-    center no-repeat / cover;
+    center no-repeat;
+    background-size: cover ;
 }
 
 .section_header {
@@ -937,6 +938,7 @@ hr {
 
 .map {
     text-align: center;
+
 }
 
 .map_title {
